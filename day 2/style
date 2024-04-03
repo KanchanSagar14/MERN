@@ -1,1 +1,128 @@
+*{
+    /* width= border(l&r)+content+padding; */
+    /* padding: 0;
+    margin: 0; */
+}
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+div{
+    background-color:azure;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+        }
+#heading{
+            background-color:green;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+    padding: 16px;
+text-align: center;
+margin: 0 0 0 auto;       
+ }
+/* align-items: center;} */
 
+.heading-2{
+    background-color:pink;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: large;
+    width: 70vw;
+        }
+.bigText{
+            font-size: xx-large;
+        }
+
+.parent{
+    font-size: 32px;
+}
+.child{
+    font-size: 16px;
+}
+.btn{
+    display: block;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    margin: 10px auto;
+    width: 8rem;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.btn-small{
+    /* display: block;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px auto; */
+    width: 4em;
+    /* font-size: 16px; */
+    cursor: pointer;
+}
+.list{
+    max-height:200px;
+    background-color: rgb(110, 110, 244);
+    overflow: scroll;
+    overflow-x: hidden;
+    color: aliceblue;
+    width: 50vh;
+}
+.parent-2{
+    ol{
+        background-color: violet;
+    }
+}
+.parent-2  ul:first-child{
+    background-color: chartreuse;
+}
+.parent-2  ul:last-child li:nth-child(3){
+    background-color: blueviolet;
+    width: fit-content;
+    color: aliceblue;
+}
+.parent-2  ul:nth-child(3){
+    background-color: plum;
+}
+.parent-2  ul:last-child{
+    background-color: orange;
+}
+ 
+.parent-2  ul:first-child li:nth-last-of-type(2){
+    background-color: violet;
+width: fit-content;
+}
+.flex{
+    background-color: rgb(141, 181, 227);
+    display: flex;
+    flex-wrap:wrap;
+}
+.children{
+    background-color: rgb(104, 161, 240);
+    border: 1px solid black;
+    width: 30px;
+    flex-basis:100px;
+   
+}
+.search-basis{
+    flex-grow: 1;
+}
+.flex-1{
+    justify-content: space-between;
+    
+    
+}
+.flex-2{
+    justify-content: space-evenly;
+  
+    
+}.flex-3{
+    justify-content: flex-end;
+    
+    
+}
+.flex-4{
+    justify-content: space-around;
+}
