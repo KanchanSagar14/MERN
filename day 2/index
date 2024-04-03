@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Day2</title>
+    <style>
+        /* div{
+    background-color:azure;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+        }
+        #heading{
+            background-color:green;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+        }
+        .heading-2{
+            background-color:pink;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;
+        }
+        .bigText{
+            font-size: xx-large;
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- <div style="background-color:azure;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: large;" 
+    >content</div> 
+heading-two: kebab case
+headingTwo: camelCase
+heading_two: snake_case
+HeadingTwo: Pascal case-->
+    <div> content </div>
+    <p id="heading"> name </p>
+    <p class="heading-2 bigText"> name </p>
+    <img src="https://www.google.com/imgres?q=what%20is%20ch%20unit%20in%20css&imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEdWSrU_XYAAIkYl%3Fformat%3Dpng%26name%3D4096x4096&imgrefurl=https%3A%2F%2Ftwitter.com%2Fstefanjudis%2Fstatus%2F1285094958886682624&docid=N7z_lPsqCeY75M&tbnid=B7GPrqOQlEu-xM&vet=12ahUKEwiD58b2s6WFAxVrRmcHHYWLAsIQM3oECBkQAA..i&w=2859&h=1620&hcb=2&ved=2ahUKEwiD58b2s6WFAxVrRmcHHYWLAsIQM3oECBkQAA" width="100px" height="100px" alt="profile pic"/>
+    <p class="parent">
+I am a parent
+<p class="child">
+    I am a child
+</p>
+    </p>
+    <button class="btn">button</button>
+    <button class="btn btn-small">button</button>
+    <ul class="list">
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
 
+    </ul>
+    <div class="parent-2">
+        <div class="child-2">
+            <ul>
+                <li>items</li>
+                <li>items</li>
+                <li>items</li>
+                <li>items</li>
+                <li>items</li>
+
+            </ul>
+            <ol>
+                <li>items1</li>
+                <li>items1</li>
+                <li>items1</li>
+                <li>items1</li>
+                <li>items1</li>
+            </ol>
+            <ul>
+                <li>items2</li>
+                <li>items2</li>
+                <li>items2</li>
+                <li>items2</li>
+                <li>items2</li>
+            </ul>
+            <ul>
+                <li>items2</li><br>
+                <li>coffee</li>
+                <li>items2</li>
+                <li>items2</li>
+                <li>items2</li>
+            </ul>
+    </div>
+    </div>
+    
+<br>
+<h4>Space around</h4>
+    <div class="flex flex-4">
+        <div class="children">logo</div>
+        <div class="children search-basis">search</div>
+        <div class="children">home</div>
+        <div class="children">cart</div>
+        <div class="children">5</div>
+        <div class="children">6</div>
+        <div class="children">7</div>
+        <div class="children">8</div>
+        <div class="children">9</div>
+    </div>
+    <h4>Space around</h4>
+
+    <div class="flex flex-4">
+       
+        <div class="children">5</div>
+        <div class="children">6</div>
+        <div class="children">7</div>
+        <div class="children">8</div>
+        <div class="children">9</div>
+    </div>
+    <h4>Space between</h4>
+
+    <div class="flex flex-1">
+       
+        <div class="children">5</div>
+        <div class="children">6</div>
+        <div class="children">7</div>
+        </div>
+        <h4>Space evenly</h4>
+
+    <div class="flex flex-2">
+        
+        <div class="children">5</div>
+        <div class="children">6</div>
+        <div class="children">7</div>
+        
+
+    </div>
+    <h4>flex-end</h4><div class="flex flex-3">
+        
+        <div class="children">5</div>
+        <div class="children">6</div>
+        <div class="children">7</div>
+        
+    </div>
+    </body>
