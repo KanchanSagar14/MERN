@@ -1,0 +1,87 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: beige;
+}
+.parent{
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    /* position: absolute; */
+    top: 10px;
+    left: 150px;
+}
+.parent-1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    /* position: absolute; */
+    /* top: 10px; */
+}
+.parent-2{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    /* position: absolute; */
+    top: 10px;
+    left:200px;
+}
+.text{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+@media(800px <=width <= 1000px){
+    .text{
+        background-color: palegreen;
+        color: black;
+        height: 100px;
+        width: 100px;
+        transition-property: height width;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+}
+button{
+    /* transition-property: scale;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out; */
+        height: 50px;
+        width: 150px;
+        background-color: chocolate;
+        animation-name: button-animation-type-1;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: 5;
+        top: 20px;
+        left: 30px;
+        scale: 1.2;
+        position: absolute;
+}
+/* button:hover{
+    background-color: chartreuse;
+    scale:1.2;
+    cursor:pointer
+} */
+@keyframes button-animation-type-1{
+    from{
+top:20px;
+left:30px;
+    }
+    to{
+        top:20px;
+        left:400px;
+    }
+}
